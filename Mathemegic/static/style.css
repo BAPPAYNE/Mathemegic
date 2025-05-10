@@ -1,0 +1,110 @@
+body {
+    background: #121212;
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    margin: 20px;
+}
+
+h1 {
+    color: #ff00cc;
+    text-align: center;
+    font-size: 2em;
+}
+
+form {
+    background: #1a1a1a;
+    padding: 15px;
+    border: 1px solid #00ffcc;
+    width: 250px;
+    margin: 20px auto;
+}
+
+input[type="number"], input[type="text"] {
+    background: #0d0d0d;
+    border: 1px solid #00ffcc;
+    color: #00ffcc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+}
+
+input[type="submit"] {
+    background: #ff00cc;
+    border: none;
+    color: #0d0d0d;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+}
+
+    input[type="submit"]:hover {
+        background: #00ffcc;
+    }
+
+p {
+    color: #00ffcc;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+    margin: 20px auto;
+}
+
+li {
+    margin: 5px 0;
+}
+
+    li a {
+        display: block;
+        color: #00ffcc;
+        text-decoration: none;
+        padding: 10px;
+        border: 1px solid #00ffcc;
+        background: #1a1a1a;
+        text-align: center;
+    }
+
+        li a:hover {
+            background: #00ffcc;
+            color: #0d0d0d;
+        }
+
+a {
+    color: #00ffcc;
+}
+
+    a:hover {
+        color: #ff00cc;
+    }
+
+#entropyCanvas {
+    display: block;
+    background: #0d0d0d;
+    border: 1px solid #00ffcc;
+    margin: 10px auto;
+    cursor: crosshair;
+}
+
+#progressBar {
+    width: 250px;
+    height: 20px;
+    background: #1a1a1a;
+    border: 1px solid #ff00cc;
+    margin: 10px auto;
+}
+
+    #progressBar div {
+        height: 100%;
+        background: #00ffcc;
+        width: 0%;
+        transition: width 0.3s ease;
+    }
+
+#generateButton {
+    display: none;
+}
+
