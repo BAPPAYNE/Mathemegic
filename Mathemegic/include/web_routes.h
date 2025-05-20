@@ -7,4 +7,5 @@ namespace WebRoutes {
     crow::response rsa_generator(const crow::request& req);
     crow::response random_prime_generator(const crow::request& req);
     crow::response random_rsa_generator(const crow::request& req);
+    crow::response sqrt_all_types(const crow::request& req);
 }

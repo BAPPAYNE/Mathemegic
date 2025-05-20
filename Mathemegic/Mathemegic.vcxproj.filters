@@ -33,6 +33,12 @@
     <ClInclude Include="include\random_rsa_gen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\sqrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\namespace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">

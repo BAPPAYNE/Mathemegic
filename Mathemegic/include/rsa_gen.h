@@ -1,5 +1,5 @@
 #pragma once
-#include <cmath>
+//#include <cmath>
 #include <numeric>
 #include <boost/multiprecision/cpp_int.hpp>
 
